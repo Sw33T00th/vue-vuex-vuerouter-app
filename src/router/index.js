@@ -17,7 +17,7 @@ const routes = [
     meta : {
       title: 'Easy Task',
     },
-    name: 'Home',
+    name: ' List',
     component: () => import(/* webpackChunkName: "about" */ '../views/List.vue')
   },
   {
@@ -25,7 +25,7 @@ const routes = [
     meta : {
       title: 'Easy Task',
     },
-    name: 'Home',
+    name: 'Task',
     component: () => import(/* webpackChunkName: "about" */ '../views/Task.vue')
   },
 ]
