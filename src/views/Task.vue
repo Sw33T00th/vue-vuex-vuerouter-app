@@ -78,4 +78,15 @@ export default {
 </script>
 
 <style scoped>
+
+@media screen and (max-width: 568px){
+  h1 {
+    font-size: 40px;
+  }
+
+  .btn {
+    margin:0px 0px 1rem 0px
+  }
+}
+
 </style>
